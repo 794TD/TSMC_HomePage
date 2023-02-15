@@ -1,0 +1,89 @@
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#top{
+    background: url('https://source.cdn.794td.cn/tsmc/img/head_photo.png') center no-repeat;
+    background-size: cover;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    font-weight: bolder;
+    text-align: center;
+}
+h1.title{
+    font-size: 4vh;
+}
+p.notice{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: darkgray;
+}
+.code-area{
+    max-width: 26rem;
+    margin: 1rem auto;
+}
+.code-area > h1.title{
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
+#ip-info{
+    margin: 0 1rem;
+}
+#group-info{
+    margin-top: 1rem;
+}
+
+p{
+    text-indent: 2em;
+}
+
+img{
+    height: auto;
+    width: 12rem;
+}
+
+#logo{
+    margin-top: 1rem;
+}
+#Logo>img{
+    width: 13rem;
+    height: auto;
+}
+#server-info{
+    margin: 1rem ;
+}
+footer{
+    margin-top: 6vh;
+    color: rgb(245, 225, 185);
+    background-color:rgba(255, 235, 205,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > h1{
+    font-size: 3vh;
+}
+#photo-box{
+    padding-top: 2rem;
+    margin: 0 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    max-width: calc(26rem + 12rem);
+}
+
+#photo-box >h2.title{
+    text-align: left;
+}
+
+#photo-box img{
+    width: 100%;
+    margin: 0.4rem auto;
+    height: auto;
+}
