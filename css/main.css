@@ -13,10 +13,16 @@
 }
 .title{
     font-weight: bolder;
-    text-align: center;
 }
 h1.title{
     font-size: 4vh;
+    text-align: center;
+}
+.container{
+    display: flex;
+    max-width: 42em;
+    flex-flow: wrap row;
+    margin: 0 auto;
 }
 p.notice{
     margin-top: 0.5rem;
@@ -46,6 +52,7 @@ p{
 img{
     height: auto;
     width: 12rem;
+    padding: 0 1rem;
 }
 
 #logo{
