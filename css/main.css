@@ -38,6 +38,12 @@ p.notice{
     text-align: left;
 }
 
+@media screen and (min-width:712px){
+    #photo-box img{
+        padding-left: 1rem;
+    }
+}
+
 #ip-info{
     margin: 0 1rem;
 }
@@ -52,7 +58,7 @@ p{
 img{
     height: auto;
     width: 12rem;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 }
 
 #logo{
@@ -78,11 +84,11 @@ footer > h1{
 }
 #photo-box{
     padding-top: 2rem;
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     display: flex;
     flex-flow: column;
     justify-content: center;
-    max-width: calc(26rem + 12rem);
+    max-width: calc(26rem + 12rem + 1rem);
 }
 
 #photo-box >h2.title{
